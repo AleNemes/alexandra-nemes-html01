@@ -7,10 +7,10 @@
 </head>
 <body>
   <p>
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Home</a> *
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><b>Place Order</b></a> *
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Customer Service</a> *
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Contact</a>
+    <a href="http://www.google.com" title="Home">Home</a> *
+    <a href="http://www.google.com" title="Place Order"><b>Place Order</b></a> *
+    <a href="http://www.google.com" title="Customer Service">Customer Service</a> *
+    <a href="http://www.google.com" title="Contact">Contact</a>
   </p>
 
   <h1>Place Order</h1>
@@ -68,7 +68,7 @@
   <form action="/">
     <fieldset>
       <legend>Personal Information</legend>
-      <label>Title:</label>
+      <label for="title">Title:</label>
       <label for="male">Mr.</label>
       <input type="radio"
         name="gender"
@@ -128,26 +128,26 @@
   <form action="/">
     <fieldset>
       <legend>Adress</legend>
-      <label for="name">*Name</label>
+      <label for="first name">*Name</label>
       <input type="text"
-        name="name"
-        id="name"
+        name="first name"
+        id="first name"
         placeholder="Name"
         required
       > <br><br>
 
-      <label for="surname">*Surname</label>
+      <label for="last name">*Surname</label>
       <input type="text"
-        name="surname"
-        id="surname"
+        name="last name"
+        id="last name"
         placeholder="Surname"
         required
       > <br><br>
 
-      <label for="phone">*Phone</label>
+      <label for="telephone">*Phone</label>
       <input type="phone"
-        name="phone"
-        id="phone"
+        name="telephone"
+        id="telephone"
         placeholder="Phone"
         required
       > <br><br>
@@ -160,10 +160,10 @@
         required
       > <br><br>
 
-      <label for="adress">Adress Line 2</label>
+      <label for="adress 2">Adress Line 2</label>
       <input type="text"
         name="adress"
-        id="adress"
+        id="adress 2"
         placeholder="Adress Line 2"
       > <br><br>
 
@@ -175,7 +175,7 @@
         required
       > <br><br>
 
-      <label>*State:</label>
+      <label for="state">*State:</label>
       <select name="state">
         <option value="">--State--</option>
         <option value="romania">Romania</option>
@@ -215,8 +215,8 @@
       required
     > <br><br>
 
-    <label>*Expiry Month</label>
-    <select name="expiry">
+    <label for="expiry month">*Expiry Month</label>
+    <select name="expiry month">
       <option value="">January</option>
       <option value="february">February</option>
       <option value="march">March</option>
@@ -231,8 +231,8 @@
       <option value="december">December</option>
     </select>
 
-    <label>*Expiry Year</label>
-    <select name="expiry">
+    <label for="expiry year">*Expiry Year</label>
+    <select name="expiry year">
       <option value="2020">2020</option>
       <option value="2021">2021</option>
       <option value="2022">2022</option>
@@ -259,10 +259,10 @@
   <fieldset>
     <legend>Form Controls</legend>
     <input type="checkbox"
-      name="confirm"
-      id="confirm"
+      name="agree"
+      id="agree"
     >
-    <label for="confirm">*You are required to agree to the
+    <label for="agree">*You are required to agree to the
       <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">terms and conditions</a>
     </label>
     <br><br>
@@ -277,10 +277,10 @@
 
     <input type="checkbox"
       name="confirm"
-      id="confirm"
+      id="gdpr"
     >
 
-    <label for="confirm">GDPR generic constent?</label>
+    <label for="gdpr">GDPR generic constent?</label>
     <br><br>
 
     <button type="submit">PLACE ORDER</button>
@@ -299,10 +299,10 @@
   </p>
 
   <p>
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Home</a> *
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><b>Place Order</b></a> *
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Customer Service</a> *
-    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">Contact</a>
+    <a href="http://www.google.com" title="Home">Home</a> *
+    <a href="http://www.google.com" title="Place Order"><b>Place Order</b></a> *
+    <a href="http://www.google.com" title="Customer Service">Customer Service</a> *
+    <a href="http://www.google.com" title="Contact">Contact</a>
   </p>
 
 
