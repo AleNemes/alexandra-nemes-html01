@@ -117,4 +117,56 @@
 
 body {
   font-family: 'Roboto';
+  font-weight: normal;
 }
+
+h1 {
+  font-family: 'Julius Sans One';
+  color: red;
+  font-size: 35px;
+}
+
+b {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+i {
+  font-family: 'Roboto';
+  font-style: italic;
+  color: blue;
+  text-decoration: underline;
+}
+
+ol a {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+ul li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+  color: green;
+}
+
+h2 {
+  font-family: 'Julius sans One';
+  font-size: 32px;
+  color: purple;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 23px;
+}
+
+
+
+
+
