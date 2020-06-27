@@ -38,8 +38,22 @@
 
 .box-brown {
   background-color: brown;
+  transform: rotate(-180deg);
+  transition: width 4s ease-in
+    height 4s ease-in;
+}
+
+.box-brown:hover {
+  width: 15px;
+  height: 15px;
 }
 
 .box-yellow {
   background-color: yellow;
+  transition: width 3s ease-in-out
+    height 3s;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }
