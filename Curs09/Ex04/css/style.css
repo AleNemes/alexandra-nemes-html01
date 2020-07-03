@@ -21,8 +21,7 @@
 
 .box-brown {
   background-color: brown;
-  transform: skewX(10deg) skewY(10deg);
-  transform: translate(5px 10px);
+  transform: skew(10deg, 10deg) translate(5px, 10px);
 }
 
 .box-yellow {
