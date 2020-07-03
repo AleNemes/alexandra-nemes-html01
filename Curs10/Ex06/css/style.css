@@ -14,3 +14,17 @@ p:hover i {
   display: inline-block;
 }
 
+.secondary a:hover {
+
+}
+
+.main a:nth-of-type(odd):hover {
+  color: green;
+  text-decoration: none;
+}
+
+p b:hover {
+  color: red;
+  transform: translate(0px, -2px);
+  display: inline-block;
+}
