@@ -27,7 +27,7 @@ h2:nth-of-type(odd) {
   text-decoration: underline;
 }
 
-u > li:last-child {
+ul > li:last-child {
   text-decoration: underline;
 }
 

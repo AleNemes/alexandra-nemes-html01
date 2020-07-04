@@ -9,6 +9,7 @@
 h1.heading:hover {
   text-decoration: underline;
 }
+
 p:hover i {
   transform: translate(-2px, -2px);
   display: inline-block;
@@ -23,7 +24,7 @@ p:hover i {
   text-decoration: none;
 }
 
-p b:hover {
+p:hover b {
   color: red;
   transform: translate(0px, -2px);
   display: inline-block;
