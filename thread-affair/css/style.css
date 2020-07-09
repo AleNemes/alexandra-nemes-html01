@@ -559,7 +559,7 @@ body {
 .footer-top {
   background: #1B1927 url('../images/banners/banner-06.jpg') no-repeat center right;
   height: 417px;
-  color: #707070;
+  color:#AEAEAE;
   font-size: 14px;
   overflow: hidden;
 }
@@ -567,7 +567,7 @@ body {
 .footer-top a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #707070;
+  color: #AEAEAE;
 }
 
 .footer-top .footer-info {
@@ -577,10 +577,12 @@ body {
 
 .footer-top .footer-info ul {
   margin-right: 60px;
+  line-height: 20px;
 }
 
 .footer-top .footer-contact {
   margin-left: 50px;
+  margin-top: 150px;
 }
 
 .footer-top .footer-contact ul {
@@ -602,6 +604,30 @@ body {
   margin-bottom: 5px;
   color: #ff6b6b;
   font-size: 24px;
+}
+
+.footer-top .footer-contact p span {
+  font-weight: bold;
+}
+
+.footer-top .footer-contact .para {
+  display: inline-block;
+}
+
+.footer-top .footer-contact .first-para {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer-top .footer-contact .anchor {
+  color: #ff6b6b;
+  text-transform: lowercase;
+}
+
+footer .footer-bottom {
+  display: block;
+  text-align: center;
+  margin: 30px 0;
 }
 
 
