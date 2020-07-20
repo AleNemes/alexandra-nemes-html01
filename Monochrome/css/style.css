@@ -171,7 +171,6 @@ body {
 .header-top {
   background: url(../Images/banner.png) no-repeat center center;
   background-size: cover;
-  margin-top: 10px;
   min-height: 500px;
 }
 
@@ -245,7 +244,7 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  margin: 0 50px;
+  margin: 0 65px;
 }
 
 .header-bottom {
@@ -257,19 +256,20 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 70px;
 }
 
 .catalog-preview .catalog-tiles {
   overflow: hidden;
+  display: flexbox;
   margin: 50px 0 20px 0;
+
 }
 
-.catalog-preview .catalog-tile {
+.catalog-preview .product-tile {
   float: left;
   text-align: center;
-  width: 33,33%;
-  margin-left: 24px;
+  width: 25%;
 }
 
 .catalog-preview .image-container {
@@ -278,18 +278,40 @@ body {
   display: inline-block;
 }
 
-.catalog-preview .catalog-tile .product-title {
+.catalog-preview .product-image {
+  width: 320px;
+  height: 290px;
+  padding-right: 20px;
+}
+
+.catalog-preview .product-tile .product-title {
   display: block;
   color: #2B2B2B;
   font-size: 22px;
   font-weight: bold;
   text-decoration: none;
-  margin: 20px 0 10px 0;
+  margin: 20px 0 15px 0;
+}
+
+.product-tile  .product-pricing .product-price {
+  font-size: 22px;
+}
+
+.product-badge {
+  font-size: 22px;
+  color: #111111;
+  position: absolute;
+  margin: 10px 0 0 -60px;
+}
+
+.home-promo {
+  display: inline-block;
+  margin-top: 75px;
 }
 
 .home-promo .img-promo {
   float: left;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .home-promo h2 {
@@ -297,12 +319,15 @@ body {
   font-weight: 500;
   float: right;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .home-promo p {
   float: right;
-  margin-right: 50px;
+  font-family: "Roboto";
+  font-weight: 300;
+  line-height: 40px;
+  margin-right: 40px;
 }
 
 .home-promo .first-para {
@@ -331,12 +356,13 @@ body {
 
 .footer-info {
   display: flex;
+  padding-top: 40px;
 }
 
 .footer-info ul {
   display: inline-block;
-  margin: 40px 40px 0 150px;
-  line-height: 30px;
+  line-height: 35px;
+  margin-right: 176px;
 }
 
 .footer-info ul a {
@@ -349,8 +375,7 @@ body {
 
 .footer-subscribe {
   float: right;
-  margin-right: 150px;
-  margin-top: -100px;
+  margin: -130px 150px 0 0;
 }
 
 .footer-subscribe p {
@@ -359,7 +384,7 @@ body {
 
 .footer-contact ul {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .footer-contact ul li {
@@ -369,6 +394,13 @@ body {
 .footer-contact ul a {
   color: #2B2B2B;
   margin-right: 10px;
+}
+
+.footer-subscribe button {
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid black;
+  padding: 3px 15px;
 }
 
 
