@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina de contact</title>
+
+  <link rel="stylesheet" href="css/style2.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-contact">
+          <ul>
+            <li>
+              <a href="http://www.youtube.com"
+                title="Toutube"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://www.twitter.com"
+                title="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://www.facebook.com"
+                title="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://www.instagram.com"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-instagram-square"></i>
+              </a>
+            </li>
+          </ul>
+
+          <p>
+            CALL US:
+            <a href="tel:+44 (0)10 2345 6789" title="+44 (0)10 2345 6789">+44 (0)10 2345 6789</a>
+          </p>
+        </div>
+        <!-- ./header-contact  -->
+
+
+
+        <div class="header-controls">
+          <form action="header-search">
+        <label for="search"><i class="fas fa-search icon"></i></label>
+        <input type="text"
+          name="search"
+          id="search"
+          placeholder="      Search"
+        >
+          </form>
+
+          <div class="user-control">
+        <ul>
+          <li>
+            <a href="" title="Account">
+              <i class="far fa-user"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="" title="wishlist">
+              <i class="far fa-heart"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="" title="cart">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </li>
+        </ul>
+          </div>
+          <!-- /.search  -->
+        </div>
+        <!-- ./header-controls -->
+      </div>
+    </div>
+    <!-- /.header-top  -->
+
+    <div class="header-bottom">
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="" title="NEW ARRIVALS">NEW ARRIVALS</a>
+          </li>
+
+          <li>
+            <a href="" title="BRANDS">BRANDS</a>
+          </li>
+
+          <li>
+            <a href="" title="MEN'S">MEN'S</a>
+          </li>
+
+          <li>
+            <a href="" title="WOMEN'S">WOMEN'S</a>
+          </li>
+
+          <li>
+            <a href="" title="ACCESSORIES">ACCESSORIES</a>
+          </li>
+
+          <li>
+            <a href="" title="LOOKBOOK">LOOKBOOK</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.header-bottom  -->
+
+  </header>
+  <!-- /.header  -->
+
+  <main class="content container">
+    <div class="form">
+      <h1>Style&Fit Advice</h1>
+
+      <p>
+        To find the perfect fit and style for you, please provide us with the info bellow and a consultant will <br>
+        contact you for a discussion. This way we can customize your watch on your needs.
+      </p>
+
+      <h2>1.Choose one</h2>
+
+      <form action="/">
+        <div class="radio-group">
+        <input type="radio"
+          name="gender"
+          id="male"
+          value="Men's"
+          checked
+        >
+        <label for="male" class="radio">Men's</label>
+
+        <input type="radio"
+          name="gender"
+          id="female"
+          value="Women's"
+        >
+        <label for="female" class="radio">Women's</label>
+      </div>
+
+      <h2>2.What model do you preffer?</h2>
+
+        <label for="model"></label>
+        <select name="model" id="model">
+          <option value="laBohemePetite">LA BOHEME PETITE</option>
+          <option value="laBoheme">LA BOHEME</option>
+          <option value="triomphe">TRIOMPHE</option>
+          <option value="laBohemePetite">LA BOHEME PETITE</option>
+          <option value="leCournnement">LE COURONNEMENT</option>
+        </select>
+
+        <p>
+          <img src="..//Monochrome/Images/strap.png" alt="Strap">
+        </p>
+
+        <h2>3. Please give us the size of your wrist</h2>
+
+        <label for="size"></label>
+        <input type="text"
+          name="size"
+          id="size"
+          placeholder="write your measuring in cm"
+          required
+        >
+
+        <h2>4. Gravation on the back</h2>
+
+        <label for="gravation"></label>
+        <input type="text"
+          name="gravation"
+          id="gravation"
+          placeholder="write 10 characters max"
+        >
+
+        <p>
+          <img src="..//Monochrome/Images/jj-ying-dfjfNu3Q0Yc-unsplash.png" alt="Product-image">
+        </p>
+
+        <h2>5. Anything else you want to add?</h2>
+
+        <label for="message"></label>
+        <textarea name="message"
+          id="message"
+          cols="60"
+          rows="8"
+        ></textarea>
+
+        <h2>6. Provide us an email to get back to you</h2>
+
+        <label for="email"></label>
+        <input type="email"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          required
+        > <br>
+
+        <div class="submit">
+        <ul>
+          <li>
+            <input class="checkbox"
+            type="checkbox"
+            name="terms"
+            id="terms"
+          >
+          <label for="terms">Ok with
+            <a href="" title="terms">terms and conditions</a>
+          </label>
+          </li>
+
+          <li>
+            <input class="checkbox"
+            type="checkbox"
+            name="news"
+            id="news"
+          >
+          <label for="news">Send me news via
+            <a href="" title="email">email</a>
+          </label>
+          </li>
+        </ul>
+        <br>
+        <button type="submit">Submit</button>
+      </div>
+      </form>
+    </div>
+  </main>
+  <!-- ./main -->
+
+  <footer class="footer">
+    <section class="footer-info container">
+      <ul>
+        <li>
+          <a href="" title="Call Us">Call Us</a>
+        </li>
+
+        <li>
+          <a href="tel:+44 (0)10 2345 6789" title="+44 (0)10 2345 6789">+44 (0)10 2345 6789</a>
+        </li>
+
+        <li>
+          <a href="" title="EMAIL">EMAIL</a>
+        </li>
+
+        <li>
+          <a href="" title="CUSTOMER CARE">CUSTOMER CARE</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="" title="STYLE & FIT ADVICE">STYLE & FIT ADVICE</a>
+        </li>
+
+        <li>
+          <a href="" title="FAQS">FAQS</a>
+        </li>
+
+        <li>
+          <a href="" title="DELIVERY">DELIVERY</a>
+        </li>
+
+        <li>
+          <a href="" title="EXCHANGES & RETURNS">EXCHANGES & RETURNS</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <a href="" title="ABOUT US">ABOUT US</a>
+        </li>
+
+        <li>
+          <a href="" title="CAREERS">CAREERS</a>
+        </li>
+
+        <li>
+          <a href="" title="AFFILIATES">AFFILIATES</a>
+        </li>
+
+        <li>
+          <a href="" title="ADVERTISING">ADVERTISING</a>
+        </li>
+      </ul>
+      </section>
+      <!-- /.footer-info  -->
+
+    <section class="footer-subscribe">
+      <p>
+        sign up for our newsletter
+      </p>
+
+      <form action="">
+        <label for="email"></label>
+        <input type="text"
+          name="email"
+          id="email"
+          placeholder="Email"
+        > <br> <br>
+      </form>
+      <button type="submit">Submit</button>
+
+      <div class="footer-contact">
+        <ul>
+          <li>
+            <a href="http://www.youtube.com"
+              title="Toutube"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.twitter.com"
+              title="Twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.facebook.com"
+              title="Facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="http://www.instagram.com"
+              title="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+    </section>
+    <!-- /.footer subscribe  -->
+  </footer>
+  <!-- /.footer  -->
+
+</body>
+</html>
