@@ -178,7 +178,7 @@ body {
   float: left;
   display: flex;
   margin-left: 170px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .header-contact ul li {
@@ -206,16 +206,37 @@ body {
 .header-controls {
   display: flex;
   float: right;
-  margin-right: 300px;
+  margin-right: 170px;
   margin-top: 15px;
 }
 
+.header-controls input[type="text"] {
+  display: none;
+}
+
+.search-button button {
+  cursor: pointer;
+  border: 1px solid #CCCCCC;
+  background: transparent;
+  width: 240px;
+  height: 41px;
+}
+
+.search-button button span {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  color: #2B2B2B;
+}
+
 .header-top .icon {
-  font-size: 12px;
+  font-size: 20px;
   color: #2B2B2B;
   position: relative;
-  left: 25px;
+  right: 70px;
+  top: 2px;
 }
+
 
 .header-top .user-control ul li {
   display: inline-block;
@@ -223,8 +244,10 @@ body {
 
 .user-control ul li a {
   display: inline-block;
+  font-size: 22px;
   color: #111111;
-  margin-left: 15px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .nav {
@@ -262,7 +285,7 @@ body {
 .catalog-preview .catalog-tiles {
   overflow: hidden;
   display: flexbox;
-  margin: 50px 0 20px 0;
+  margin: 50px 0 150px 0;
 
 }
 
@@ -282,6 +305,15 @@ body {
   width: 320px;
   height: 290px;
   padding-right: 20px;
+  width: 100%;
+}
+
+.my-div {
+  width: 100%;
+  height: 1px;
+  background-color: #E8E8E8;
+  margin-top: 30px;
+  margin-bottom: -50px;
 }
 
 .catalog-preview .product-tile .product-title {
@@ -290,7 +322,7 @@ body {
   font-size: 22px;
   font-weight: bold;
   text-decoration: none;
-  margin: 20px 0 15px 0;
+  margin: 8px 0 15px 0;
 }
 
 .product-tile  .product-pricing .product-price {
@@ -306,7 +338,7 @@ body {
 
 .home-promo {
   display: inline-block;
-  margin-top: 75px;
+  margin: 0 0 100px 0;
 }
 
 .home-promo .img-promo {
@@ -336,7 +368,7 @@ body {
 
 .content footer {
   text-align: center;
-  margin: 100px 0 120px 0;
+  margin: 0 0 110px 0;
 }
 
 .content .catalog-preview-cta {
@@ -375,10 +407,17 @@ body {
 
 .footer-subscribe {
   float: right;
-  margin: -130px 150px 0 0;
+  margin: -130px 40px 0 0;
+}
+
+.footer-subscribe input[type="text"] {
+  border: 1px solid #CCCCCC;
+  width: 261px;
+  height: 34px;
 }
 
 .footer-subscribe p {
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -399,8 +438,11 @@ body {
 .footer-subscribe button {
   text-transform: uppercase;
   font-size: 12px;
-  border: 1px solid black;
-  padding: 3px 15px;
+  border: 1px solid #2B2B2B;
+  background: transparent;
+  width: 75px;
+  height: 25px;
+  padding: 3px 10px;
 }
 
 
