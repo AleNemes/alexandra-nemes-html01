@@ -210,33 +210,23 @@ body {
   margin-top: 15px;
 }
 
-.header-controls input[type="text"] {
-  display: none;
-}
-
-.search-button button {
-  cursor: pointer;
+.search-form input[type="text"] {
   border: 1px solid #CCCCCC;
   background: transparent;
   width: 240px;
   height: 41px;
+  padding-left: 30px;
 }
 
-.search-button button span {
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 500;
-  color: #2B2B2B;
-}
-
-.header-top .icon {
+.search-form button {
+  background: transparent;
+  border: transparent;
+  line-height: 41px;
+  cursor: pointer;
   font-size: 20px;
   color: #2B2B2B;
-  position: relative;
-  right: 70px;
-  top: 2px;
+  position: absolute;
 }
-
 
 .header-top .user-control ul li {
   display: inline-block;
@@ -405,6 +395,10 @@ body {
   text-transform: lowercase;
 }
 
+.footer-info ul li span {
+  text-decoration: underline;
+}
+
 .footer-subscribe {
   float: right;
   margin: -130px 40px 0 0;
@@ -414,6 +408,7 @@ body {
   border: 1px solid #CCCCCC;
   width: 261px;
   height: 34px;
+  padding-left: 10px;
 }
 
 .footer-subscribe p {

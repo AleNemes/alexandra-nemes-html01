@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagina de contact</title>
+  <title>Estimate your watch</title>
 
   <link rel="stylesheet" href="css/style2.css">
 
@@ -66,17 +66,16 @@
 
 
         <div class="header-controls">
-          <div class="search-button">
             <form action="header-search">
-              <label for="search"></i></label>
-              <button type="submit"><i class="fas fa-search icon"> <span>Search</span> </i></button>
-              <input type="text"
-              name="search"
-              id="search"
-              placeholder="         Search"
-            >
+              <div class="search-form">
+                <button type="submit"><i class="fas fa-search icon"></i></button>
+                <input type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Search"
+                >
+              </div>
             </form>
-          </div>
 
           <div class="user-control">
         <ul>
@@ -110,7 +109,7 @@
       <nav class="nav">
         <ul>
           <li>
-            <a href="" title="NEW ARRIVALS">NEW ARRIVALS</a>
+            <a href="http://127.0.0.1:5500/Monochrome/index.html" title="NEW ARRIVALS">HOME</a>
           </li>
 
           <li>
@@ -130,7 +129,7 @@
           </li>
 
           <li>
-            <a href="" title="LOOKBOOK">LOOKBOOK</a>
+            <a href="" title="LOOKBOOK">YOUR WATCH</a>
           </li>
         </ul>
       </nav>
@@ -169,7 +168,6 @@
       </section>
 
       <section class="option">
-          <label for="model"></label>
           <h2>2.What model do you preffer?</h2>
           <select name="model" id="model">
             <option value="laBohemePetite">LA BOHEME PETITE</option>
@@ -186,7 +184,6 @@
       </div>
 
       <section class="details">
-        <label for="size"></label>
         <h2>3. Please give us the size of your wrist</h2>
         <input type="text"
           name="size"
@@ -195,12 +192,12 @@
           required
         >
 
-        <label for="gravation"></label>
         <h2>4. Gravation on the back</h2>
         <input type="text"
           name="gravation"
           id="gravation"
           placeholder="write 10 characters max"
+          maxlength="10"
         >
       </section>
 
@@ -209,19 +206,19 @@
       </div>
 
       <section class="message">
-        <label for="message"></label>
         <h2>5. Anything else you want to add?</h2>
-        <input type="text"
+        <textarea
           name="message"
           id="message"
-        >
+          cols=""
+          rows="">
+        </textarea>
 
-        <label for="email"></label>
         <h2>6. Provide us an email to get back to you</h2>
         <input type="email"
           name="email"
           id="email"
-          placeholder=""
+          placeholder="Email"
           required
         > <br>
       </section>
@@ -270,11 +267,11 @@
           </li>
 
           <li>
-            <a href="" title="EMAIL">EMAIL</a>
+            <a href="" title="EMAIL">EMAIL CUSTOMER CARE</a>
           </li>
 
           <li>
-            <a href="" title="CUSTOMER CARE">CUSTOMER CARE</a>
+            <a href="" title="CUSTOMER CARE"> <span>see mobile version</span></a>
           </li>
         </ul>
 
