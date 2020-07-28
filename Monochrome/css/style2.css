@@ -255,12 +255,16 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  margin: 0 65px;
+  margin: 0 70px;
 }
 
 .header-bottom {
   background-color: #2B2B2B;
   height: 52px;
+}
+
+.header-bottom .nav ul li:nth-child(3) {
+  text-decoration: underline;
 }
 
 .content h1 {
@@ -276,6 +280,103 @@ body {
   margin: 40px 0 46px 0;
   color: #707070;
   line-height: 33px;
+}
+
+.nav-products .my-nav ul {
+  display: flex;
+  text-align: center;
+}
+
+.nav-products .my-nav ul li {
+  display: inline-block;
+}
+
+.nav-products .my-nav .my-nav-cta {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: #2B2B2B;
+  border: 1px solid #CCCCCC;
+  width: 206px;
+  height: 41px;
+  padding: 10px;
+  margin-right: 8px;
+  transition: color 0.2s linear,
+    background-color 0.2s linear;
+}
+
+.nav-products .my-nav .my-nav-cta:hover {
+  background-color: #2B2B2B;
+  color: #ffffff;
+}
+
+.catalog-preview .catalog-tiles {
+  overflow: hidden;
+  display: flexbox;
+}
+
+.catalog-preview .product-tile {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+.catalog-preview .image-container {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.catalog-preview .product-image {
+  width: 320px;
+  height: 290px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.catalog-preview .product-tile .product-title {
+  display: block;
+  color: #2B2B2B;
+  font-family: "Playfair Display";
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 21px 0 15px 0;
+}
+
+.product-tile  .product-pricing .product-price {
+  font-size: 22px;
+}
+
+.product-badge {
+  font-size: 22px;
+  color: #111111;
+  position: absolute;
+  margin: 70px 0 0 -60px;
+}
+
+.content footer {
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+
+.content .catalog-preview-cta {
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+  border: 1px solid #2B2B2B;
+  width: 127px;
+  height: 49px;
+  padding: 10px;
+  transition: color 0.2s linear,
+    background-color 0.2s linear;
+}
+
+.content .catalog-preview-cta:hover {
+  background-color: #707070;
+  color: #ffffff;
 }
 
 .content h2 {
@@ -326,7 +427,6 @@ body {
   padding-left:10px;
 }
 
-
 .content .message textarea {
   border: 1px solid #CCCCCC;
   width: 896px;
@@ -370,7 +470,7 @@ body {
 .footer {
   background: #E8E8E8;
   height: 249px;
-  margin-top: 500px;
+  margin-top: 100px;
 }
 
 .footer-info {
