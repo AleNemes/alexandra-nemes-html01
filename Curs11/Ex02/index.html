@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap 02</title>
 
+  <link rel="stylesheet" href="css/style.css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
 <header>
-  <section class="header-menu">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -30,17 +31,13 @@
         </div>
       </div>
     </div>
-  </section>
 </header>
 
 <main>
-  <section class="content">
     <div class="container">
-      <div class="row">
-        <div class="col">
           <h1>Place Order</h1>
 
-          <h3>This is the <span>guest checkout</span></h3>
+          <h3>This is the <strong>guest checkout</strong></h3>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>
@@ -52,8 +49,8 @@
 
           <h2>Order now</h2>
 
-          <p class="">
-            On our website no account is needed.
+          <p class="text-center">
+            On our website <strong> <i>no account is needed</i></strong>.
           </p>
 
           <ol>
@@ -69,239 +66,280 @@
               Finally, your credit card information.
             </li>
           </ol>
-        </div>
-      </div>
     </div>
-  </section>
 
-  <section>
-    <form action="/">
-      <div class="container">
+    <div class="container">
+      <form action="/">
         <div class="row">
           <div class="col">
-            <h5>Personal Information</h5>
-            <label for="title">Title:</label>
-            <label for="male">Mr</label>
-            <input type="radio"
-              name="gender"
-              id="gender"
-              value="mr"
-              checked
-            >
+            <h6>Personal Information</h6>
 
-            <label for="female">Mrs</label>
-            <input type="radio"
-              name="gender"
-              id="gender"
-              value="mrs"
-            >
+            <div class="form-group">
+              <label for="title">Title:</label>
+              <label for="mr">Mr</label>
+              <input type="radio"
+                name="gender"
+                id="gender"
+                value="mr"
+                checked
+              >
 
-            <label for="unspecified">Unspecified</label>
-            <input type="radio"
-              name="gender"
-              id="gender"
-              value="unspecified"
-            >   <br>
+              <label for="ms">Ms</label>
+              <input type="radio"
+                name="gender"
+                id="gender"
+                value="ms"
+              >
 
-            <label for="name">*Name:</label>
-            <input type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            > <br>
+              <label for="unspecified">Unspecified</label>
+              <input type="radio"
+                name="gender"
+                id="gender"
+                value="unspecified"
+              >
+            </div>
+          <!-- ./ radio-group  -->
 
-           <label for="surname">*Surname:</label>
-            <input type="text"
-              name="surname"
-              id="surname"
-              placeholder="Surname"
-              required
-            > <br>
+            <div class="form-group">
+              <label for="name">*Name:</label>
+              <input type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              >
+            </div>
 
-            <label for="email">*Email:</label>
-            <input type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            > <br>
+            <div class="form-group">
+              <label for="surname">*Surname:</label>
+              <input type="text"
+                name="surname"
+                id="surname"
+                placeholder="Surname"
+                required
+              >
+            </div>
 
-            <label for="phone">*Phone:</label>
-            <input type="phone"
-              name="phone"
-              id="phone"
-              placeholder="Phone"
-              required
-            > <br>
-          </div>
-          <!-- ./ col1  -->
+            <div class="form-group">
+              <label for="email">*Email:</label>
+              <input type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              >
+            </div>
 
-          <div class="col">
-            <h5>Adress</h5>
-
-            <label for="name">*Name:</label>
-            <input type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            > <br>
-
-            <label for="surname">*Surname:</label>
-            <input type="text"
-              name="surname"
-              id="surname"
-              placeholder="Surname"
-              required
-            > <br>
-
-            <label for="phone">*Phone:</label>
-            <input type="phone"
-              name="phone"
-              id="phone"
-              placeholder="Phone"
-              required
-            > <br>
-
-            <label for="adress1">*Adress1:</label>
-            <input type="text"
-              name="adress1"
-              id="adress1"
-              placeholder="Adress Line 1"
-              required
-            > <br>
-
-            <label for="adress2">*Adress2:</label>
-            <input type="text"
-              name="adress2"
-              id="adress2"
-              placeholder="Adress Line 2"
-            > <br>
-
-            <label for="city">*City:</label>
-            <input type="text"
-              name="city"
-              id="city"
-              placeholder="City"
-              required
-            > <br>
-
-            <label for="state">*State:</label>
-            <select name="State" id="state">
-              <option value="">--State--</option>
-              <option value="romania">Romania</option>
-              <option value="italia">Italia</option>
-              <option value="franta">Franta</option>
-              <option value="belgia">Belgia</option>
-            </select> <br>
-
-            <label for="postcode">*Postcode:</label>
-            <input type="text"
-              name="postcode"
-              id="postcode"
-              placeholder="Postcode"
-              required
-            > <br>
-          </div>
-          <!-- ./ col2  -->
+            <div class="form-group">
+              <label for="phone">*Phone:</label>
+              <input type="phone"
+                name="phone"
+                id="phone"
+                placeholder="Phone"
+                required
+              >
+            </div>
+        </div>
+        <!-- ./ col 1  -->
 
           <div class="col">
-            <h5>Card Information</h5>
+            <h6>Adress</h6>
 
-            <label for="card">*Number:</label>
-            <input type="text"
-              name="card"
-              id="card"
-              placeholder="Card Number"
-              required
-            > <br>
+            <div class="form-group">
+              <label for="name">*Name:</label>
+              <input type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              >
+            </div>
 
-            <label for="cardname">*Name:</label>
-            <input type="text"
-              name="cardname"
-              id="cardname"
-              placeholder="Name on card"
-              required
-            > <br>
+            <div class="form-group">
+              <label for="surname">*Surname:</label>
+              <input type="text"
+                name="surname"
+                id="surname"
+                placeholder="Surname"
+                required
+              >
+            </div>
 
-            <label for="month">*Month:</label>
-            <select name="month" id="month">
-              <option value="january">January</option>
-              <option value="february">February</option>
-              <option value="march">March</option>
-              <option value="april">April</option>
-            </select> <br>
+            <div class="form-group">
+              <label for="phone">*Phone:</label>
+              <input type="phone"
+                name="phone"
+                id="phone"
+                placeholder="Phone"
+                required
+              >
+            </div>
 
-            <label for="year">*Year:</label>
-            <select name="year" id="year">
-              <option value="2020">2020</option>
-              <option value="2021">2021</option>
-              <option value="2022">2022</option>
-              <option value="2024">2023</option>
-            </select> <br>
+            <div class="form-group">
+              <label for="adress1">*Adress1:</label>
+              <input type="text"
+                name="adress1"
+                id="adress1"
+                placeholder="Adress Line 1"
+                required
+              >
+            </div>
 
-            <label for="ccv">*CCV:</label>
-            <input type="text"
-              name="ccv"
-              id="ccv"
-              placeholder="CCV"
-              required
-            >
+            <div class="form-group">
+              <label for="adress2">*Adress2:</label>
+              <input type="text"
+                name="adress2"
+                id="adress2"
+                placeholder="Adress Line 2"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="city">*City:</label>
+              <input type="text"
+                name="city"
+                id="city"
+                placeholder="City"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="state">*State:</label>
+              <select name="state" id="state">
+                <option value="">--State--</option>
+                <option value="italy">Italy</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="belgium">Belgium</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="postcode">*PostCode:</label>
+              <input type="text"
+                name="postcode"
+                id="postcode"
+                placeholder="PostCode"
+                required
+              >
+            </div>
+          </div>
+          <!-- ./ col 2 -->
+
+          <div class="col">
+            <h6>Card Information</h6>
+
+            <div class="form-group">
+              <label for="number">*Number:</label>
+              <input type="text"
+                name="number"
+                id="number"
+                placeholder="Card Number"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="cardname">*Name:</label>
+              <input type="text"
+                name="cardname"
+                id="cardname"
+                placeholder="Name on card"
+                required
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="month">*Month:</label>
+              <select name="month" id="month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="year">*Year:</label>
+              <select name="year" id="year">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="ccv">*CCV:</label>
+              <input type="text"
+                name="ccv"
+                id="ccv"
+                placeholder="CCV"
+                required
+              >
+            </div>
 
             <p>
-              We do not store credit card information!
+              <i>We do not store card informations!</i>
             </p>
           </div>
+          <!-- ./ col 3  -->
         </div>
+        <!-- ./ row  -->
+      </form>
+
+      <div class="text-center">
+        <h4>Forms Controls</h4>
+
+        <div class="form-group">
+          <input type="checkbox"
+          name="terms"
+            id="terms"
+            value="terms"
+          >
+
+          <label for="terms">*You are required to confirm the
+            <a href="" title="terms and conditions">terms and conditions</a>
+          </label>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox"
+            name="agree"
+            id="agree"
+            value="agree"
+            checked
+          >
+
+          <label for="agree">Agree to this and <i>we will send you emails</i></label>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox"
+            name="gdpr"
+            id="gdpr"
+            value="gdpr"
+          >
+
+          <label for="gdpr">GDPR Generic Constent?</label>
+        </div>
+
+        <button class="btn btn-primary">PLACE ORDER</button>
+        <button class="btn btn-secondary">Reset</button>
       </div>
-    </form>
-    <!-- ./ form  -->
-  </section>
-
-  <section>
-    <div class="form-controls">
-      <h4>Forms Controls</h4>
-
-      <input type="checkbox"
-        name="terms"
-        id="terms"
-      >
-
-      <label for="terms">*You are required to confirm the
-        <a href="" title="terms and conditions">terms and conditions</a>
-      </label> <br>
-
-      <input type="checkbox"
-        name="agree"
-        id="agree"
-        checked
-      >
-
-      <label for="agree">Agree to this and we will send you emails</label>
-      <br>
-      <input type="checkbox"
-        name="gdpr"
-        id="gdpr"
-      >
-
-      <label for="gdpr">GDPR Generic Consent?</label> <br>
-
-      <button class="btn btn-primary">PLACE ORDER</button>
-      <button class="btn btn-secondary">Reset</button>
     </div>
-    <!-- ./ forms-controls  -->
-  </section>
 
-  <section class="para">
-    <p>
+
+  <div class="container">
+    <p class="text-justify">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br>
       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
       laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in <br>
       voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <br>
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-  </section>
+  </div>
 
 </main>
 
