@@ -1,0 +1,35 @@
+.content h2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.content .text-justify {
+  margin-bottom: 70px;
+}
+
+
+
+.form-group input[type=email] {
+  margin-left: 297px;
+}
+
+.form-group input[type=password] {
+  margin-left: 270px;
+}
+
+.form-group input[type=checkbox] {
+  margin-left: 350px;
+}
+
+.col-6 ul {
+  display: block;
+}
+
+.col-6 ul li {
+  display: block;
+margin-left: -40px;
+}
+
+.col-6 ul li a {
+  text-decoration: underline;
+}
