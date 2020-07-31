@@ -467,6 +467,41 @@ body {
   background: transparent
 }
 
+.promo-content {
+  background: url('..//Images/ea_time000a.png') no-repeat;
+  background-size: cover;
+}
+
+.promo-banner {
+  min-height: 1320px;
+}
+
+.banner-content {
+  margin-right: 50px;
+  padding-top: 90px;
+  text-align: right;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  color: #040404;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.footer-promo {
+  margin: 0;
+}
+
+
+
 .footer {
   background: #E8E8E8;
   height: 249px;
