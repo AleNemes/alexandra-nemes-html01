@@ -102,7 +102,7 @@
 
             <div class="form-group">
               <label for="name">*Name:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="name"
                 id="name"
                 placeholder="Name"
@@ -112,7 +112,7 @@
 
             <div class="form-group">
               <label for="surname">*Surname:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="surname"
                 id="surname"
                 placeholder="Surname"
@@ -122,7 +122,7 @@
 
             <div class="form-group">
               <label for="email">*Email:</label>
-              <input type="email" class="my-form"
+              <input type="email"
                 name="email"
                 id="email"
                 placeholder="Email"
@@ -132,7 +132,7 @@
 
             <div class="form-group">
               <label for="phone">*Phone:</label>
-              <input type="phone" class="my-form"
+              <input type="phone"
                 name="phone"
                 id="phone"
                 placeholder="Phone"
@@ -147,7 +147,7 @@
 
             <div class="form-group">
               <label for="name">*Name:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="name"
                 id="name"
                 placeholder="Name"
@@ -157,7 +157,7 @@
 
             <div class="form-group">
               <label for="surname">*Surname:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="surname"
                 id="surname"
                 placeholder="Surname"
@@ -167,7 +167,7 @@
 
             <div class="form-group">
               <label for="phone">*Phone:</label>
-              <input type="phone" class="my-form"
+              <input type="phone"
                 name="phone"
                 id="phone"
                 placeholder="Phone"
@@ -176,27 +176,27 @@
             </div>
 
             <div class="form-group">
-              <label for="adress1">*Adress1:</label>
-              <input type="text" class="my-form"
-                name="adress1"
-                id="adress1"
-                placeholder="Adress Line 1"
+              <label for="address1">*Address1:</label>
+              <input type="text"
+                name="address1"
+                id="address1"
+                placeholder="Address Line 1"
                 required
               >
             </div>
 
             <div class="form-group">
-              <label for="adress2">*Adress2:</label>
-              <input type="text" class="my-form"
-                name="adress2"
-                id="adress2"
-                placeholder="Adress Line 2"
+              <label for="address2">*Address2:</label>
+              <input type="text"
+                name="address2"
+                id="address2"
+                placeholder="Address Line 2"
               >
             </div>
 
             <div class="form-group">
               <label for="city">*City:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="city"
                 id="city"
                 placeholder="City"
@@ -206,7 +206,7 @@
 
             <div class="form-group">
               <label for="state">*State:</label>
-              <select name="state" id="state" class="my-form">
+              <select name="state" id="state">
                 <option value="">--State--</option>
                 <option value="italy">Italy</option>
                 <option value="bangladesh">Bangladesh</option>
@@ -216,7 +216,7 @@
 
             <div class="form-group">
               <label for="postcode">*PostCode:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="postcode"
                 id="postcode"
                 placeholder="PostCode"
@@ -231,7 +231,7 @@
 
             <div class="form-group">
               <label for="number">*Number:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="number"
                 id="number"
                 placeholder="Card Number"
@@ -241,7 +241,7 @@
 
             <div class="form-group">
               <label for="cardname">*Name:</label>
-              <input type="text" class="my-form"
+              <input type="text"
                 name="cardname"
                 id="cardname"
                 placeholder="Name on card"
@@ -251,7 +251,7 @@
 
             <div class="form-group">
               <label for="month">*Month:</label>
-              <select name="month" id="month" class="my-form">
+              <select name="month" id="month">
                 <option value="january">January</option>
                 <option value="february">February</option>
                 <option value="march">March</option>
@@ -261,7 +261,7 @@
 
             <div class="form-group">
               <label for="year">*Year:</label>
-              <select name="year" id="year" class="my-form">
+              <select name="year" id="year">
                 <option value="2020">2020</option>
                 <option value="2021">2021</option>
                 <option value="2022">2022</option>
@@ -289,44 +289,54 @@
         <!-- ./ row  -->
       </form>
 
-      <div class="text-center">
-        <h4>Forms Controls</h4>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h4>Forms Controls</h4>
 
-        <div class="form-group">
-          <input type="checkbox"
-          name="terms"
-            id="terms"
-            value="terms"
-          >
+          <div class="form-group">
+            <input type="checkbox"
+              name="terms"
+              id="terms"
+              value="terms"
+            >
 
-          <label for="terms">*You are required to confirm the
-            <a href="" title="terms and conditions">terms and conditions</a>
-          </label>
+            <label for="terms">*You are required to confirm the
+              <a href="" title="terms and conditions">terms and conditions</a>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <input type="checkbox"
+              name="agree"
+              id="agree"
+              value="agree"
+              checked
+            >
+
+            <label for="agree">Agree to this and <i>we will send you emails</i></label>
+          </div>
+
+          <div class="form-group">
+            <input type="checkbox"
+              name="gdpr"
+              id="gdpr"
+              value="gdpr"
+            >
+
+            <label for="gdpr">GDPR Generic Constent?</label>
+          </div>
+        </div>
+        <!-- ./ col-6  -->
+      </div>
+      <!-- ./ row  -->
+      <div class="row justify-content-center">
+        <div class="col-3">
+          <button class="btn-block btn btn-primary">PLACE ORDER</button>
         </div>
 
-        <div class="form-group">
-          <input type="checkbox"
-            name="agree"
-            id="agree"
-            value="agree"
-            checked
-          >
-
-          <label for="agree">Agree to this and <i>we will send you emails</i></label>
+        <div class="col-md-3">
+          <button class="btn-block btn btn-secondary">Reset</button>
         </div>
-
-        <div class="form-group">
-          <input type="checkbox"
-            name="gdpr"
-            id="gdpr"
-            value="gdpr"
-          >
-
-          <label for="gdpr">GDPR Generic Constent?</label>
-        </div>
-
-        <button class="btn btn-primary">PLACE ORDER</button>
-        <button class="btn btn-secondary">Reset</button>
       </div>
     </div>
 
