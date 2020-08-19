@@ -21,15 +21,15 @@
   margin-left: 350px;
 }
 
-.col-6 ul {
+.col ul {
   display: block;
 }
 
-.col-6 ul li {
+.col ul li {
   display: block;
 margin-left: -40px;
 }
 
-.col-6 ul li a {
+.col ul li a {
   text-decoration: underline;
 }
